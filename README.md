@@ -1,16 +1,83 @@
-# React + Vite
+# Hetk - All-in-One Event Planning Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+Hetk is an all-in-one event planning marketplace where users can organize events by finding and booking services such as venues, photographers, caterers, and other event providers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Users can:
+- Create events
+- Set budgets and dates
+- Search and filter services
+- View provider profiles
+- Book services
+- Communicate through chats
+- Receive notifications
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 🚀 Current Todo List
 
-## Expanding the ESLint configuration
+## Setup Phase (until 31/08/2026)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [x] Create GitHub repository
+- [ ] Set up React frontend
+- [ ] Set up backend
+- [x] Connect Supabase database
+- [ ] Create initial database structure
+- [ ] Decide Git workflow
+- [ ] Buy and connect domain
+- [ ] Create basic website structure
+- [ ] Add:
+  - [ ] Home page
+  - [ ] About Us page
+  - [ ] Team page
+  - [ ] Contact information
+
+---
+
+# 📅 Development Log
+
+## August 2026
+
+### 05/08/2026
+
+**Sofiia**
+
+Completed:
+- Created GitHub repository
+- Set up React project with Vite
+- Connected React application with Supabase
+- Tested database connection
+
+Notes:
+- Supabase RLS permissions were configured during testing.
+- Need to finalize database structure.
+
+---
+
+# ⚠️ Problems & Solutions
+
+## Problem:
+
+## Solution:
+
+
+---
+
+# Git Commit Rules
+
+Use clear commit messages:
+
+Examples:
+
+✅ Add authentication system  
+✅ Connect Supabase database  
+✅ Create event page  
+✅ Fix booking form validation  
+
+Avoid:
+
+❌ update  
+❌ changes  
+❌ stuff  
+❌ final version (it never is)
