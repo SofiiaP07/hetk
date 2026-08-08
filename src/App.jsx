@@ -1,40 +1,27 @@
-import { useEffect, useState } from "react";
-import supabase from "./services/supabase";
+import { Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+import Home from "./pages/Home.jsx";
+import About from "./pages/About.jsx";
+import Team from "./pages/Team.jsx";
+import Contact from "./pages/Contact.jsx";
 
 function App() {
-  const [profiles, setProfiles] = useState([]);
-
-  useEffect(() => {
-    async function testConnection() {
-      const { data, error } = await supabase
-        .from("profiles")
-        .select("*");
-
-      console.log("Data:", data);
-      console.log("Error:", error);
-
-      if (data) {
-        setProfiles(data);
-      }
-    }
-
-    testConnection();
-  }, []);
-
   return (
-    <div>
-      <h1>Hetk</h1>
-
-      <h2>Profiles:</h2>
-
-      {profiles.map((profile) => (
-        <div key={profile.id}>
-          <h3>{profile.full_name}</h3>
-          <p>{profile.email}</p>
-          <p>{profile.role}</p>
-        </div>
-      ))}
-    </div>
+    <>
+      <ScrollToTop />
+      <Navbar />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
+      <Footer />
+    </>
   );
 }
 
