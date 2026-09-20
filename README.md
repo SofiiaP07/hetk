@@ -17,21 +17,16 @@ Users can:
 
 # 🚀 Current Todo List
 
-## Setup Phase (until 31/08/2026)
+## Setup Phase (until 04/11/2026)
 
-- [x] Create GitHub repository
-- [x] Set up React frontend
-- [ ] Set up backend
-- [x] Connect Supabase database
-- [ ] Create initial database structure
-- [ ] Decide Git workflow
-- [ ] Buy and connect domain
-- [x] Create basic website structure
-- [x] Add:
-  - [x] Home page
-  - [x] About Us page
-  - [x] Team page
-  - [x] Contact information
+- [ ] Connect domain
+- [ ] Change the text on the pages - about + contacts
+- [ ] Add page galery
+- [ ] Event type --> question type
+- [ ] About us: history, mission/vision/values(values = very important)
+- [ ] Connect with instagram, linkedln, facebook
+- [ ] Paste logo
+- [ ] Do different color schemes for web-site
 
 ---
 
