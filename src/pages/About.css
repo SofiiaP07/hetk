@@ -16,6 +16,20 @@
   margin-top: 20px;
 }
 
+.about-hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.about-hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
 .about-story {
   background: var(--paper-dim);
   border-top: 1.5px solid var(--ink-line);
@@ -63,6 +77,7 @@
 
 @media (max-width: 860px) {
   .about-story-grid,
+  .about-hero-grid,
   .values-list {
     grid-template-columns: 1fr;
   }

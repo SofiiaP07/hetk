@@ -20,12 +20,12 @@ Users can:
 ## Setup Phase (until 04/10/2026)
 
 - [x] Connect domain
-- [ ] Change the text on the pages - about + contacts
+- [x] Change the text on the pages - about + contacts
 - [ ] Add page galery
 - [ ] Event type --> question type
-- [ ] About us: history, mission/vision/values(values = very important)
+- [x] About us: history, mission/vision/values(values = very important)
 - [ ] Connect with instagram, linkedln, facebook
-- [ ] Paste logo
+- [x] Paste logo
 - [ ] Do different color schemes for web-site
 
 ---
@@ -63,6 +63,21 @@ Completed:
 
 Notes:
 - Contact form currently only logs submissions to the console — needs a Supabase table (e.g. `contact_requests`) and an `insert` call to actually save messages.
+
+---
+
+### 30/09/2026
+
+**Sofiia**
+
+Completed:
+- Connected website to our new domain name
+- Changed commit and deployment status codes
+- Changed placeholder text on About us and Team pages (written by Elizaveta)
+- Added logo
+
+Notes:
+- Still need to create a galery and change event type to question type on the Contact us page
 
 ---
 

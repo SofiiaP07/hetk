@@ -13,11 +13,13 @@ function Team() {
   return (
     <section className="team-section">
       <div className="wrap">
-        <span className="eyebrow">Behind Hetk</span>
+        <span className="eyebrow">The People Behind HETK</span>
         <h1>The people planning the planner</h1>
         <p className="team-lead">
-          A small, hands-on team that talks to organizers and vendors every
-          week — the roadmap comes from those conversations.
+          We're a young, ambitious team with a shared passion for creativity, technology, and bringing people together.
+        </p>
+        <p className="team-lead">
+          We started HETK because we believe great ideas shouldn't get lost in complicated planning. We're building the kind of platform we'd love to use ourselves — intuitive, innovative, and designed around real people's needs.
         </p>
 
         <div className="team-grid">

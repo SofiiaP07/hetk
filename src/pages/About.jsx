@@ -1,36 +1,18 @@
 import "./About.css";
 
-const values = [
-  {
-    time: "01",
-    label: "Clarity over chaos",
-    body: "Every quote, thread, and contract lives in one place — no more digging through texts and DMs.",
-  },
-  {
-    time: "02",
-    label: "Vetted, not just listed",
-    body: "Every provider on Hetk is reviewed before they can accept a single booking.",
-  },
-  {
-    time: "03",
-    label: "Built for both sides",
-    body: "Organizers get a calmer planning process; providers get fewer no-shows and faster payment.",
-  },
-];
-
 function About() {
   return (
     <>
       <section className="about-hero">
         <div className="wrap">
           <span className="eyebrow">About Hetk</span>
-          <h1>Event planning, minus the group chat</h1>
+          <h1>What if i tell you, that you can organise your special day in just a few clicks?</h1>
+          <h2>Crazy, right?</h2>
           <p className="about-lead">
-            Hetk started as a shared frustration: booking a single event meant
-            juggling a dozen phone numbers, screenshots, and half-answered
-            emails. We're building the version of event planning that should
-            have existed the whole time — one place to find, compare, and
-            book everyone your event needs.
+            HETK app was founded in Estonia, from a simple idea: bringing everything you need to plan an event into one place. Whether it's an intimate birthday celebration, a dream wedding, a corporate gathering, or a spontaneous party with friends, we're here to make the process easier, smarter, and more enjoyable.
+          </p>
+          <p className="about-lead">
+            Our platform connects people with venues, services, and event professionals, helping turn ideas into unforgettable experiences without the endless searching, complicated planning, or unnecessary stress.
           </p>
         </div>
       </section>
@@ -38,40 +20,35 @@ function About() {
       <section className="about-story">
         <div className="wrap about-story-grid">
           <div>
-            <span className="eyebrow">The problem</span>
-            <h2>Planning shouldn't need a spreadsheet</h2>
+            <h2>Our Mission</h2>
             <p>
-              Most people plan two or three big events in their life —
-              weddings, milestone birthdays, launches — and relearn the same
-              painful process every time: cold-emailing venues, chasing
-              quotes, and losing track of who said what.
+              To make event planning simple, accessible, and enjoyable for everyone. By combining innovative technology with a human-centered approach, we aim to give people more time to focus on what truly matters — creating memories and enjoying moments together.
             </p>
           </div>
           <div>
-            <span className="eyebrow">The fix</span>
-            <h2>One dashboard, every vendor</h2>
+            <h2>Our vision</h2>
             <p>
-              Hetk brings venues, photographers, caterers, florists, and more
-              onto a single marketplace, with real availability, transparent
-              pricing, and built-in messaging — so planning an event feels
-              less like a second job.
+              We envision a world where organizing an event is as exciting as attending one. Starting in Estonia, our ambition is to grow into an international platform that brings people, places, and experiences together.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="about-values">
-        <div className="wrap">
-          <span className="eyebrow">What we stand for</span>
-          <h2>How we build Hetk</h2>
-          <div className="values-list">
-            {values.map((v) => (
-              <div className="stub value-item" key={v.label}>
-                <div className="stub-time">{v.time}</div>
-                <h3>{v.label}</h3>
-                <p>{v.body}</p>
-              </div>
-            ))}
+      <section className="about-hero">
+        <div className="wrap about-hero-grid">
+          <div className="about-hero-text">
+            <h2>Why Hetk?</h2>
+            <h3>In Estonian "hetk" means "moment"</h3>
+            <p className="about-lead">
+              And that's exactly what we're all about. The little moments, the big celebrations, the spontaneous gatherings, and the once-in-a-lifetime experiences.
+            </p>
+            <p className="about-lead">
+              Because at the end of the day, it's not just about planning an event. It's about making moments that matter.
+            </p>
+            <h3>HETK — Less planning. More living.</h3>
+          </div>
+          <div className="about-hero-image">
+            <img src="/hetk.img.png" alt="Hetk Preview" />
           </div>
         </div>
       </section>

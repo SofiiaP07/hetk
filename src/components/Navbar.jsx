@@ -16,7 +16,7 @@ function Navbar() {
     <header className="nav">
       <div className="wrap nav-inner">
         <NavLink to="/" className="nav-logo" onClick={() => setOpen(false)}>
-          HETK
+          <img src="/hetk.img.png" alt="HETK Logo" className="nav-logo-img" />
         </NavLink>
 
         <nav className={`nav-links ${open ? "is-open" : ""}`}>
