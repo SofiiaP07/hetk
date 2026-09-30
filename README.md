@@ -17,9 +17,9 @@ Users can:
 
 # 🚀 Current Todo List
 
-## Setup Phase (until 04/11/2026)
+## Setup Phase (until 04/10/2026)
 
-- [ ] Connect domain
+- [x] Connect domain
 - [ ] Change the text on the pages - about + contacts
 - [ ] Add page galery
 - [ ] Event type --> question type
