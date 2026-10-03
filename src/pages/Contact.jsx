@@ -4,7 +4,7 @@ import "./Contact.css";
 const initialForm = {
   name: "",
   email: "",
-  eventType: "Wedding",
+  questionType: "General Inquiry",
   message: "",
 };
 
@@ -69,13 +69,14 @@ function Contact() {
             </label>
 
             <label>
-              Event type
-              <select name="eventType" value={form.eventType} onChange={handleChange}>
-                <option>Wedding</option>
-                <option>Corporate</option>
-                <option>Birthday</option>
-                <option>Product launch</option>
-                <option>Other</option>
+              Question type
+              <select name="questionType" value={form.questionType} onChange={handleChange}>
+                <option value="">Select a question type</option>
+                <option value="general">General Inquiry</option>
+                <option value="support">Technical Support</option>
+                <option value="billing">Billing & Payment</option>
+                <option value="feedback">Feedback & Suggestions</option>
+                <option value="other">Other</option>
               </select>
             </label>
 

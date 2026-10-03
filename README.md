@@ -21,12 +21,11 @@ Users can:
 
 - [x] Connect domain
 - [x] Change the text on the pages - about + contacts
-- [ ] Add page galery
-- [ ] Event type --> question type
+- [x] Add page galery
+- [x] Event type --> question type
 - [x] About us: history, mission/vision/values(values = very important)
 - [ ] Connect with instagram, linkedln, facebook
 - [x] Paste logo
-- [ ] Do different color schemes for web-site
 
 ---
 
@@ -78,6 +77,16 @@ Completed:
 
 Notes:
 - Still need to create a galery and change event type to question type on the Contact us page
+
+---
+
+### 03/10/2026
+
+**Sofiia**
+
+Completed:
+- Replaced "Event type" selection with "Question type" on the Contact Us form
+- Created and integrated the new Gallery page with category filtering, search and full-screen lightbox modal
 
 ---
 
