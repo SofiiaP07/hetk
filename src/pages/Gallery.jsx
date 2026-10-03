@@ -3,7 +3,7 @@ import "./Gallery.css";
 
 const GALLERY_ITEMS = [
   //{ id: 1, title: "Grand Ballroom Reception", category: "Venues", src: "/gallery/venue-1.jpg" },
-  { id: 1, title: "Main logo", category: "All", src: "./public/hetk.img.png" },
+  { id: 1, title: "Main logo", category: "All", src: "/hetk.img.png" },
 ];
 
 const CATEGORIES = ["All", "Venues", "Photography", "Catering", "Florists", "Music"];
