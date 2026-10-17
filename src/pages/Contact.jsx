@@ -4,7 +4,7 @@ import "./Contact.css";
 const initialForm = {
   name: "",
   email: "",
-  questionType: "General Inquiry",
+  questionType: "general",
   message: "",
 };
 
@@ -31,10 +31,9 @@ function Contact() {
       <div className="wrap contact-grid">
         <div>
           <span className="eyebrow">Get in touch</span>
-          <h1>Tell us about your event</h1>
+          <h1>Still need help? Send us a message</h1>
           <p className="contact-lead">
-            Share a few details and we'll point you toward the right venues
-            and vendors — or answer any question about how Hetk works.
+            Can't find your answer above? Tell us what's on your mind and we'll get back to you within one business day.
           </p>
 
           {sent && (

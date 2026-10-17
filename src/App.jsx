@@ -6,7 +6,9 @@ import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Team from "./pages/Team.jsx";
 import Contact from "./pages/Contact.jsx";
-import Gallery from "./pages/Gallery.jsx"
+import Gallery from "./pages/Gallery.jsx";
+import HowItWorks from "./pages/HowItWorks.jsx";
+import Help from "./pages/Help.jsx";
 
 function App() {
   return (
@@ -17,9 +19,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/how-it-works" element={<HowItWorks />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/help" element={<Help />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/gallery" element={<Gallery />} />
         </Routes>
       </main>
       <Footer />

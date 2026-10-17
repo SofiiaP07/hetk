@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
 
-const schedule = [
+{/* const schedule = [
   {
     time: "09:00",
     label: "Discover",
@@ -17,7 +17,7 @@ const schedule = [
     label: "Celebrate",
     body: "Run the whole event from a single dashboard — timeline, payments, and every vendor thread in one place.",
   },
-];
+]; */}
 
 const categories = [
   { name: "Venues", detail: "Barns, ballrooms, rooftops & gardens" },
@@ -48,14 +48,14 @@ function Home() {
             <Link to="/contact" className="btn btn-primary">
               Start planning
             </Link>
-            <a href="#how-it-works" className="btn btn-ghost">
+            <a href="/how-it-works" className="btn btn-ghost">
               See how it works
             </a>
           </div>
         </div>
       </section>
 
-      <section id="how-it-works" className="schedule-section">
+      {/* <section id="how-it-works" className="schedule-section">
         <div className="wrap">
           <span className="eyebrow">Run of show</span>
           <h2>How a booking day runs</h2>
@@ -69,7 +69,7 @@ function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="categories-section">
         <div className="wrap">

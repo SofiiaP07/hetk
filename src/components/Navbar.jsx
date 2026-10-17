@@ -4,10 +4,12 @@ import "./Navbar.css";
 
 const links = [
   { to: "/", label: "Home" },
-  { to: "/about", label: "About" },
-  { to: "/team", label: "Team" },
-  { to: "/contact", label: "Contact" },
+  { to: "/about", label: "About Us" },
+  { to: "/how-it-works", label: "How it works" },
+  //{ to: "/team", label: "Team" },
+  //{ to: "/contact", label: "Contact" },
   { to: "/gallery", label: "Gallery" },
+  { to: "/help", label: "Help Center" },
 ];
 
 function Navbar() {

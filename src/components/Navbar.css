@@ -101,6 +101,7 @@
     width: 100%;
     padding: 16px 20px;
     border-bottom: 1px solid var(--ink-line);
+    font-size: 12px;
   }
 
   .nav-cta {

@@ -19,14 +19,17 @@ Users can:
 
 ## Setup Phase (until 04/10/2026)
 
-- [x] Connect domain
-- [x] Change the text on the pages - about + contacts
-- [x] Add page galery
-- [x] Event type --> question type
-- [x] About us: history, mission/vision/values(values = very important)
-- [ ] Connect with instagram, linkedln, facebook
 - [x] Paste logo
-
+- [x] Change favicon to Hetk image
+- [x] Add How it works page
+- [x] Add Help page (FAQ + contact form)
+- [ ] Connect with instagram, linkedln, facebook
+- [ ] Add run of photos
+- [ ] Add giraffe illustrations
+- [ ] Change "Services on the guest list" to "Popular choices" with event types (wedding, birthday, corporate...)
+- [ ] Link event type cards to the Gallery page
+- [ ] Add legal links row + copyright
+- [ ] Add giraffe on bike as contact us
 ---
 
 # 📅 Development Log
@@ -87,6 +90,17 @@ Notes:
 Completed:
 - Replaced "Event type" selection with "Question type" on the Contact Us form
 - Created and integrated the new Gallery page with category filtering, search and full-screen lightbox modal
+
+---
+
+### 17/10/2026
+
+**Sofiia**
+
+Completed:
+- Changed the favicon to the Hetk image
+- Added the How it works page
+- Added the Help page
 
 ---
 
